@@ -21,6 +21,7 @@ describe 'GetRequester' do
     end
   end
 
+  
   describe 'parse_json' do
     it 'is an instance method on the GetRequester class' do
       get_requester = GetRequester.new(URL)
